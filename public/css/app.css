@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.application {
+    width: 35rem;
+    margin: 5rem auto;
+    background: yellow;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #111;
+    padding: 1rem;
+}
+
+input {
+    border: 1px solid #111;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button {
+    background: #f00;
+    border: 1px solid #111;
+    padding: 0.5rem;
+    color: #fff;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.table_holder {
+    overflow-x: auto;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    min-width: 100%;
+}
+
+td {
+    border: 1px solid #111;
+    padding: 0.2rem;
+}

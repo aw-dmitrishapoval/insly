@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>-- Insurance test app --</title>
+    <script src="/public/js/app.js" defer></script>
+    <link href="/public/css/app.css" rel="stylesheet">
+</head>
+<body>
+<div class="application">
+    <form class="form" method="POST">
+        <input name="car" type="number" min="100" max="100000" placeholder="Estimated value of the car (EUR)" />
+        <input name="tax" type="number" step="any" min="0" max="100" placeholder="Tax percentage (%)" />
+        <input name="instalments" type="number" min="0" max="12" placeholder="Number of instalments (1-12)" />
+        <div class="button">Calculate</div>
+    </form>
+    <div class="table_holder">
+        <table class="result"></table>
+    </div>
+</div>
+</body>
+</html>
